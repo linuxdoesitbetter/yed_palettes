@@ -15,5 +15,5 @@
   <palette.section palette.id="current.elements.palette" palette.visibility="true"/>
   <palette.section palette.id="graphity.promotion" palette.visibility="true"/>
   <palette.section palette.id="Statechart" palette.visibility="true"/>
-  <palette.section palette.id="Schnittstelle" palette.visibility="true"/>
+  <palette.section palette.id="Komponentendiagramm" palette.visibility="true"/>
 </palette.information>
