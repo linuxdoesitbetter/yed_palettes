@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
   <!--Created by yEd 3.23.2-->
-  <key attr.name="Beschreibung" attr.type="string" for="graph" id="d0"/>
-  <key for="port" id="d1" yfiles.type="portgraphics"/>
-  <key for="port" id="d2" yfiles.type="portgeometry"/>
-  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key for="port" id="d0" yfiles.type="portgraphics"/>
+  <key for="port" id="d1" yfiles.type="portgeometry"/>
+  <key for="port" id="d2" yfiles.type="portuserdata"/>
+  <key attr.name="yed.palette.node.name" attr.type="string" for="node" id="d3"/>
   <key attr.name="Palette ToolTip" attr.type="string" for="node" id="d4"/>
   <key attr.name="url" attr.type="string" for="node" id="d5"/>
   <key attr.name="description" attr.type="string" for="node" id="d6"/>
   <key for="node" id="d7" yfiles.type="nodegraphics"/>
   <key for="graphml" id="d8" yfiles.type="resources"/>
-  <key attr.name="Palette ToolTip" attr.type="string" for="edge" id="d9"/>
-  <key attr.name="url" attr.type="string" for="edge" id="d10"/>
-  <key attr.name="description" attr.type="string" for="edge" id="d11"/>
-  <key for="edge" id="d12" yfiles.type="edgegraphics"/>
+  <key attr.name="yed.palette.edge.name" attr.type="string" for="edge" id="d9"/>
+  <key attr.name="Palette ToolTip" attr.type="string" for="edge" id="d10"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d11"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d12"/>
+  <key for="edge" id="d13" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d0"/>
     <node id="n0">
+      <data key="d3" xml:space="preserve"><![CDATA[f683c4ae-b8b0-454e-8070-2c7d1114c2d4]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Austrittspunkt]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Austrittspunkt]]></data>
       <data key="d7">
@@ -33,6 +34,7 @@
       </data>
     </node>
     <node id="n1">
+      <data key="d3" xml:space="preserve"><![CDATA[33261f51-7ec5-4b67-9c3e-64eb392ec486]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Endzustand]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Endzustand]]></data>
       <data key="d7">
@@ -49,6 +51,7 @@
       </data>
     </node>
     <node id="n2">
+      <data key="d3" xml:space="preserve"><![CDATA[748dc012-0a46-41d8-a815-a777c5a891f4]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Startzustand]]></data>
       <data key="d5" xml:space="preserve"/>
       <data key="d6" xml:space="preserve"><![CDATA[Startzustand]]></data>
@@ -66,6 +69,7 @@
       </data>
     </node>
     <node id="n3">
+      <data key="d3" xml:space="preserve"><![CDATA[324d94cf-6ae2-46f3-9eb7-d64a43ab88b0]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Einfacher Zustand]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Einfacher Zustand]]></data>
       <data key="d7">
@@ -85,6 +89,7 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n4">
+      <data key="d3" xml:space="preserve"><![CDATA[12839807-9bb8-4b71-a76b-377e3b964c03]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Zustand]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Zustand]]></data>
       <data key="d7">
@@ -100,6 +105,7 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n5">
+      <data key="d3" xml:space="preserve"><![CDATA[2a8a687c-7e4d-414e-827a-e2df4d168020]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Zusammengesetzter Zustand]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Zusammengesetzter Zustand]]></data>
       <data key="d7">
@@ -116,6 +122,7 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n6">
+      <data key="d3" xml:space="preserve"><![CDATA[6ec3d3ac-6d5f-4d8e-81a1-a3959d0e7d42]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Terminator]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Terminator]]></data>
       <data key="d7">
@@ -132,6 +139,7 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n7">
+      <data key="d3" xml:space="preserve"><![CDATA[570c79f9-dedb-4596-a1ef-a48872512075]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Entscheidung]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Entscheidung]]></data>
       <data key="d7">
@@ -152,6 +160,7 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n8">
+      <data key="d3" xml:space="preserve"><![CDATA[b3a3d632-c9b8-43a7-98e7-60da97fef649]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Historie]]></data>
       <data key="d5" xml:space="preserve"/>
       <data key="d6" xml:space="preserve"><![CDATA[Historie]]></data>
@@ -169,6 +178,7 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n9">
+      <data key="d3" xml:space="preserve"><![CDATA[5e4c818e-4fcb-4f03-aea1-f225c632c05f]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Tiefe Historie]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Tiefe Historie]]></data>
       <data key="d7">
@@ -185,6 +195,7 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n10">
+      <data key="d3" xml:space="preserve"><![CDATA[7e2d8c9e-675a-4870-bd6c-572d1aa1cf1c]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Versteckte Dekomposition]]></data>
       <data key="d5" xml:space="preserve"/>
       <data key="d6" xml:space="preserve"><![CDATA[Versteckte Dekomposition]]></data>
@@ -228,9 +239,10 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <edge id="e0" source="n11" target="n12">
-      <data key="d9" xml:space="preserve"><![CDATA[Transition]]></data>
-      <data key="d11" xml:space="preserve"><![CDATA[Transition]]></data>
-      <data key="d12">
+      <data key="d9" xml:space="preserve"><![CDATA[ce427977-0422-436d-a306-d9974e2c00f4]]></data>
+      <data key="d10" xml:space="preserve"><![CDATA[Transition]]></data>
+      <data key="d12" xml:space="preserve"><![CDATA[Transition]]></data>
+      <data key="d13">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>

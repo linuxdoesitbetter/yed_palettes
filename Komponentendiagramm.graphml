@@ -17,12 +17,12 @@
   <key for="edge" id="d13" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
     <node id="n0">
-      <data key="d3" xml:space="preserve"><![CDATA[beac8bde-3c2b-440c-a26e-9314b57b5d4b]]></data>
+      <data key="d3" xml:space="preserve"><![CDATA[b160ea42-d8b1-4752-bf80-59fe3fa9935c]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Komponente]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Komponente]]></data>
       <data key="d7">
         <y:ShapeNode>
-          <y:Geometry height="98.81280000000004" width="188.77120000000002" x="0.0" y="40.121157373046856"/>
+          <y:Geometry height="98.81280000000004" width="188.77120000000002" x="0.0" y="62.0"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="2.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Hack" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="20.296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.14453125" x="41.81333437500001" xml:space="preserve" y="39.25796250000002">Komponente_1</y:NodeLabel>
@@ -49,142 +49,131 @@
       </data>
     </node>
     <node id="n1">
-      <data key="d3" xml:space="preserve"><![CDATA[a1074d45-da3a-47a9-b69b-0bcf8019af32]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d3" xml:space="preserve"><![CDATA[f8e7289f-c7c5-4f55-8802-066d643fb37f]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Schnittstellen-Klasse]]></data>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d6" xml:space="preserve"><![CDATA[Schnittstellen-Klasse]]></data>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="81.29764556884766" width="116.2582778930664" x="218.77120000000002" y="48.87873458862305"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.1291389465332" y="85.29764556884766"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="2"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:UMLClassNode>
+          <y:Geometry height="162.81280000000004" width="424.48" x="218.77120000000002" y="30.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Hack" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.74658203125" x="159.366708984375" xml:space="preserve" y="71.83999375000002">Component-API<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="interface" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">m_sample : SampleType</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve">+ sampleFunction( t_param : ParamType ) : ReturnType</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
       </data>
     </node>
     <node id="n2">
-      <data key="d3" xml:space="preserve"><![CDATA[65a76a10-4888-45f3-ab7f-b8a6f42eb76d]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d3" xml:space="preserve"><![CDATA[df51fe16-1730-4af8-87de-8c8166e9a058]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[C-Struktur]]></data>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d6" xml:space="preserve"><![CDATA[C-Struktur]]></data>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="116.2582778930664" width="81.29764556884766" x="365.0294778930664" y="31.398418426513672"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.64882278442383" y="120.2582778930664"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="3"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:UMLClassNode>
+          <y:Geometry height="107.6128" width="162.8800000000001" x="673.2512" y="57.60000000000002"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Hack" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.43994140625" x="44.220029296875055" xml:space="preserve" y="44.23999375">ParamType<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:UML clipContent="true" constraint="" hasDetailsColor="false" omitDetails="false" stereotype="C-struct" use3DEffect="false">
+            <y:AttributeLabel xml:space="preserve">m_x : int32_t
+m_y : int32_t</y:AttributeLabel>
+            <y:MethodLabel xml:space="preserve"/>
+          </y:UML>
+        </y:UMLClassNode>
       </data>
     </node>
     <node id="n3">
-      <data key="d3" xml:space="preserve"><![CDATA[5206c617-6cb8-41f7-b1d8-d2a0964aa199]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d4"/>
+      <data key="d6"/>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="81.29764556884766" width="116.2582778930664" x="476.3271234619141" y="48.87873458862305"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.1291389465332" y="85.29764556884766"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="4"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="0.0" y="270.94193894653324"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
       </data>
     </node>
     <node id="n4">
-      <data key="d3" xml:space="preserve"><![CDATA[955aa87d-cda2-4bc9-ab93-24a7b7a7715a]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d4"/>
+      <data key="d6"/>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="116.2582778930664" width="81.29764556884766" x="622.5854013549805" y="31.398418426513672"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.64882278442383" y="120.2582778930664"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="5"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="100.0" y="270.94193894653324"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
       </data>
     </node>
     <node id="n5">
-      <data key="d3" xml:space="preserve"><![CDATA[e4bcd2b2-483d-4ddf-a21f-2ee281ccf32c]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d4"/>
+      <data key="d6"/>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="119.05511474609375" width="116.25827026367188" x="733.8830469238281" y="30.0"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.12913513183594" y="123.05511474609375"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="150.0" y="270.94193894653324"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
       </data>
     </node>
     <node id="n6">
-      <data key="d3" xml:space="preserve"><![CDATA[a7ab5853-9004-4613-ae9f-ebe31d85df75]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d4"/>
+      <data key="d6"/>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="116.25827026367188" width="119.05511474609375" x="0.0" y="180.45354461669922"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="120.25827026367188"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="7"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="250.0" y="270.94193894653324"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
       </data>
     </node>
     <node id="n7">
-      <data key="d3" xml:space="preserve"><![CDATA[53df3da7-6f0d-4bd8-a4e7-14d0531890a7]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d4"/>
+      <data key="d6"/>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="119.05513000488281" width="116.2582778930664" x="149.05511474609375" y="179.05511474609375"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.1291389465332" y="123.05513000488281"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="8"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="300.0" y="270.94193894653324"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
       </data>
     </node>
     <node id="n8">
-      <data key="d3" xml:space="preserve"><![CDATA[cdc7300e-f9fb-4e12-9ef7-80e0c2a55f5b]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d4"/>
+      <data key="d6"/>
       <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="116.25827026367188" width="119.05511474609375" x="295.31339263916016" y="180.45354461669922"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="120.25827026367188"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="9"/>
-          </y:SVGModel>
-        </y:SVGNode>
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="400.0" y="270.94193894653324"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
       </data>
     </node>
     <node id="n9">
-      <data key="d3" xml:space="preserve"><![CDATA[b4b4328d-4c7d-4d5e-8799-0ce6443a5d9a]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d3" xml:space="preserve"><![CDATA[7967f49e-c23d-4f66-9ef9-2fd9ba3d541b]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Ball - Nord]]></data>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d6" xml:space="preserve"><![CDATA[Ball - Nord]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="81.29764556884766" width="116.2582778930664" x="444.3685073852539" y="197.93385696411133"/>
+          <y:Geometry height="116.2582778930664" width="81.29764556884766" x="450.0" y="222.81280000000004"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.1291389465332" y="85.29764556884766"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.64882278442383" y="120.2582778930664"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="2"/>
@@ -193,14 +182,134 @@
       </data>
     </node>
     <node id="n10">
-      <data key="d3" xml:space="preserve"><![CDATA[4c8618cf-371b-42d6-8b13-d004555e38ab]]></data>
-      <data key="d4" xml:space="preserve"/>
+      <data key="d3" xml:space="preserve"><![CDATA[34c6afd8-c43f-4d47-94f7-e41d882d4cad]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Ball - Ost]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Ball - Ost]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="119.05511474609375" width="75.5527572631836" x="590.6267852783203" y="179.05512237548828"/>
+          <y:Geometry height="81.29764556884766" width="116.2582778930664" x="561.2976455688477" y="240.2931161621094"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.1291389465332" y="85.29764556884766"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d3" xml:space="preserve"><![CDATA[6d92cfef-9009-4e1f-b89c-748b84045154]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Ball - Süd]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Ball - Süd]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="116.2582778930664" width="81.29764556884766" x="707.5559234619141" y="222.81280000000004"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.64882278442383" y="120.2582778930664"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d3" xml:space="preserve"><![CDATA[8fafcc64-fad9-4a74-8b78-c75521f81bd5]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Ball - West]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Ball - West]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="81.29764556884766" width="116.2582778930664" x="0.0" y="387.9498124816895"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.1291389465332" y="85.29764556884766"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d3" xml:space="preserve"><![CDATA[cf32be00-df23-4d49-8845-f426aa584ca5]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket -  Nord]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket -  Nord]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="75.5527572631836" width="119.05511474609375" x="146.2582778930664" y="390.8222566345215"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="79.5527572631836"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d3" xml:space="preserve"><![CDATA[635b5ba2-66eb-4cb6-8a46-bcf317fb7618]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket - Ost]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket - Ost]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="119.05510711669922" width="75.55274963378906" x="295.31339263916016" y="369.0710817077637"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="35.77637481689453" y="123.05510711669922"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="7"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d3" xml:space="preserve"><![CDATA[ef68437d-917d-4509-b4ab-09d834062233]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket - Süd]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket - Süd]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="75.5527572631836" width="119.05511474609375" x="400.8661422729492" y="390.8222566345215"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="79.5527572631836"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="8"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d3" xml:space="preserve"><![CDATA[24545588-a56c-453e-9cbf-a907bbf9eeb1]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket - West]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket - West]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="119.05511474609375" width="75.5527572631836" x="549.921257019043" y="369.07107789306644"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="35.7763786315918" y="123.05511474609375"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="9"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d3" xml:space="preserve"><![CDATA[3a5aa03c-be19-46ad-8077-1a34bc535820]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket Ball - Nord]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket Ball - Nord]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="116.25827026367188" width="119.05511474609375" x="655.4740142822266" y="370.4695001342774"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="120.25827026367188"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="10"/>
@@ -208,15 +317,16 @@
         </y:SVGNode>
       </data>
     </node>
-    <node id="n11">
-      <data key="d3" xml:space="preserve"><![CDATA[ec995065-da06-4a98-9f7a-317057823dec]]></data>
-      <data key="d4" xml:space="preserve"/>
+    <node id="n18">
+      <data key="d3" xml:space="preserve"><![CDATA[fe9b18be-60a0-4f30-9111-d0338b80d288]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket Ball - Ost]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket Ball - Ost]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="75.5527572631836" width="119.05511474609375" x="696.1795425415039" y="200.80630111694336"/>
+          <y:Geometry height="119.05513000488281" width="116.2582778930664" x="0.0" y="518.1261926391602"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="79.5527572631836"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.1291389465332" y="123.05513000488281"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="11"/>
@@ -224,31 +334,17 @@
         </y:SVGNode>
       </data>
     </node>
-    <node id="n12">
-      <data key="d3" xml:space="preserve"><![CDATA[40652f9b-de9b-4da4-918c-f93763985ff3]]></data>
-      <data key="d4" xml:space="preserve"/>
+    <node id="n19">
+      <data key="d3" xml:space="preserve"><![CDATA[5d8b29f9-503f-46ef-9c19-d3a1d84e838e]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket Ball - Süd]]></data>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket Ball - Süd]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="119.05511474609375" width="75.5527572631836" x="0.0" y="328.11024475097656"/>
+          <y:Geometry height="116.25827026367188" width="119.05511474609375" x="146.2582778930664" y="519.5246225097657"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="35.7763786315918" y="123.05511474609375"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="10"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n13">
-      <data key="d3" xml:space="preserve"><![CDATA[7febb203-31d9-4064-bfb1-697905104064]]></data>
-      <data key="d4" xml:space="preserve"/>
-      <data key="d7">
-        <y:SVGNode>
-          <y:Geometry height="75.5527572631836" width="119.05511474609375" x="105.5527572631836" y="349.86142349243164"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="79.5527572631836"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="57.527557373046875" y="120.25827026367188"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="12"/>
@@ -256,6 +352,65 @@
         </y:SVGNode>
       </data>
     </node>
+    <node id="n20">
+      <data key="d3" xml:space="preserve"><![CDATA[8f57235b-2dbd-4529-8dd4-7f904b020803]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Socket Ball - West]]></data>
+      <data key="d6" xml:space="preserve"><![CDATA[Socket Ball - West]]></data>
+      <data key="d7">
+        <y:SVGNode>
+          <y:Geometry height="119.05511474609375" width="116.25827026367188" x="295.31339263916016" y="518.1262002685547"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="56.12913513183594" y="123.05511474609375"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="13"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="e0" source="n3" target="n4">
+      <data key="d9" xml:space="preserve"><![CDATA[a9e9962c-db09-490e-acbc-c35e7da597ea]]></data>
+      <data key="d10" xml:space="preserve"><![CDATA[Verwendung]]></data>
+      <data key="d11" xml:space="preserve"/>
+      <data key="d12" xml:space="preserve"><![CDATA[Verwendung]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="plain"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.38832092285156" x="10.125" xml:space="preserve" y="-22.34410040588375">&lt;&lt;use&gt;&gt;<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n5" target="n6">
+      <data key="d9" xml:space="preserve"><![CDATA[978ab6ad-bb9d-497e-8efa-8d280e31f5d4]]></data>
+      <data key="d10" xml:space="preserve"><![CDATA[Verbinder]]></data>
+      <data key="d12" xml:space="preserve"><![CDATA[Verbinder]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="2.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n7" target="n8">
+      <data key="d9" xml:space="preserve"><![CDATA[e1e7c497-1863-4450-a787-e29c37c830f6]]></data>
+      <data key="d10" xml:space="preserve"><![CDATA[Realisierung]]></data>
+      <data key="d11" xml:space="preserve"/>
+      <data key="d12" xml:space="preserve"><![CDATA[Realisierung]]></data>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="white_delta"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
   </graph>
   <data key="d8">
     <y:Resources>
@@ -324,7 +479,7 @@
       </y:Resource>
       <y:Resource id="2" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="31.52mm" height="21.52mm" viewBox="4924 4925 3152 2152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+&lt;svg version="1.2" width="21.52mm" height="31.53mm" viewBox="5424 4423 2152 3153" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
  &lt;defs class="EmbeddedBulletChars"&gt;
   &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
    &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
@@ -360,69 +515,19 @@
  &lt;g class="Page"&gt;
   &lt;g class="com.sun.star.drawing.CustomShape"&gt;
    &lt;g id="id3"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4924" y="4925" width="2152" height="2152"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5999,7001 C 5824,7001 5651,6955 5499,6867 5347,6779 5221,6653 5133,6501 5045,6349 4999,6176 4999,6001 4999,5825 5045,5652 5133,5500 5221,5348 5347,5222 5499,5134 5651,5046 5824,5000 5999,5000 6175,5000 6348,5046 6500,5134 6652,5222 6778,5348 6866,5500 6954,5652 7000,5825 7000,6000 7000,6176 6954,6349 6866,6501 6778,6653 6652,6779 6500,6867 6348,6955 6175,7001 6000,7001 L 5999,7001 Z"/&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5424" y="4423" width="2152" height="2153"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5499,5499 C 5499,5324 5545,5151 5633,4999 5721,4847 5847,4721 5999,4633 6151,4545 6324,4499 6500,4499 6675,4499 6848,4545 7000,4633 7152,4721 7278,4847 7366,4999 7454,5151 7500,5324 7500,5499 7500,5675 7454,5848 7366,6000 7278,6152 7152,6278 7000,6366 6848,6454 6675,6500 6500,6500 6324,6500 6151,6454 5999,6366 5847,6278 5721,6152 5633,6000 5545,5848 5499,5675 5499,5500 L 5499,5499 Z"/&gt;
    &lt;/g&gt;
   &lt;/g&gt;
   &lt;g class="com.sun.star.drawing.LineShape"&gt;
    &lt;g id="id4"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6925" y="5925" width="1151" height="151"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 8000,6000 L 7000,6000"/&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6425" y="6425" width="151" height="1151"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6500,7500 L 6500,6500"/&gt;
    &lt;/g&gt;
   &lt;/g&gt;
  &lt;/g&gt;
 &lt;/svg&gt;</y:Resource>
       <y:Resource id="3" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="21.52mm" height="31.52mm" viewBox="5425 4425 2152 3152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
- &lt;defs class="EmbeddedBulletChars"&gt;
-  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
-  &lt;/g&gt;
- &lt;/defs&gt;
- &lt;g class="Page"&gt;
-  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
-   &lt;g id="id3"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5425" y="5425" width="2152" height="2152"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 7501,6501 C 7501,6676 7455,6849 7367,7001 7279,7153 7153,7279 7001,7367 6849,7455 6676,7501 6501,7501 6325,7501 6152,7455 6000,7367 5848,7279 5722,7153 5634,7001 5546,6849 5500,6676 5500,6501 5500,6325 5546,6152 5634,6000 5722,5848 5848,5722 6000,5634 6152,5546 6325,5500 6500,5500 6676,5500 6849,5546 7001,5634 7153,5722 7279,5848 7367,6000 7455,6152 7501,6325 7501,6500 L 7501,6501 Z"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.LineShape"&gt;
-   &lt;g id="id4"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6425" y="4425" width="151" height="1151"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6500,4500 L 6500,5500"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
- &lt;/g&gt;
-&lt;/svg&gt;</y:Resource>
-      <y:Resource id="4" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
 &lt;svg version="1.2" width="31.52mm" height="21.52mm" viewBox="4925 4924 3152 2152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
  &lt;defs class="EmbeddedBulletChars"&gt;
@@ -472,9 +577,9 @@
   &lt;/g&gt;
  &lt;/g&gt;
 &lt;/svg&gt;</y:Resource>
-      <y:Resource id="5" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+      <y:Resource id="4" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="21.52mm" height="31.53mm" viewBox="5424 4423 2152 3153" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+&lt;svg version="1.2" width="21.52mm" height="31.52mm" viewBox="5425 4425 2152 3152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
  &lt;defs class="EmbeddedBulletChars"&gt;
   &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
    &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
@@ -510,21 +615,225 @@
  &lt;g class="Page"&gt;
   &lt;g class="com.sun.star.drawing.CustomShape"&gt;
    &lt;g id="id3"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5424" y="4423" width="2152" height="2153"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5499,5499 C 5499,5324 5545,5151 5633,4999 5721,4847 5847,4721 5999,4633 6151,4545 6324,4499 6500,4499 6675,4499 6848,4545 7000,4633 7152,4721 7278,4847 7366,4999 7454,5151 7500,5324 7500,5499 7500,5675 7454,5848 7366,6000 7278,6152 7152,6278 7000,6366 6848,6454 6675,6500 6500,6500 6324,6500 6151,6454 5999,6366 5847,6278 5721,6152 5633,6000 5545,5848 5499,5675 5499,5500 L 5499,5499 Z"/&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5425" y="5425" width="2152" height="2152"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 7501,6501 C 7501,6676 7455,6849 7367,7001 7279,7153 7153,7279 7001,7367 6849,7455 6676,7501 6501,7501 6325,7501 6152,7455 6000,7367 5848,7279 5722,7153 5634,7001 5546,6849 5500,6676 5500,6501 5500,6325 5546,6152 5634,6000 5722,5848 5848,5722 6000,5634 6152,5546 6325,5500 6500,5500 6676,5500 6849,5546 7001,5634 7153,5722 7279,5848 7367,6000 7455,6152 7501,6325 7501,6500 L 7501,6501 Z"/&gt;
    &lt;/g&gt;
   &lt;/g&gt;
   &lt;g class="com.sun.star.drawing.LineShape"&gt;
    &lt;g id="id4"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6425" y="6425" width="151" height="1151"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6500,7500 L 6500,6500"/&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6425" y="4425" width="151" height="1151"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6500,4500 L 6500,5500"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="5" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.2" width="31.52mm" height="21.52mm" viewBox="4924 4925 3152 2152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+ &lt;defs class="EmbeddedBulletChars"&gt;
+  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
+  &lt;/g&gt;
+ &lt;/defs&gt;
+ &lt;g class="Page"&gt;
+  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
+   &lt;g id="id3"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4924" y="4925" width="2152" height="2152"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5999,7001 C 5824,7001 5651,6955 5499,6867 5347,6779 5221,6653 5133,6501 5045,6349 4999,6176 4999,6001 4999,5825 5045,5652 5133,5500 5221,5348 5347,5222 5499,5134 5651,5046 5824,5000 5999,5000 6175,5000 6348,5046 6500,5134 6652,5222 6778,5348 6866,5500 6954,5652 7000,5825 7000,6000 7000,6176 6954,6349 6866,6501 6778,6653 6652,6779 6500,6867 6348,6955 6175,7001 6000,7001 L 5999,7001 Z"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;g class="com.sun.star.drawing.LineShape"&gt;
+   &lt;g id="id4"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6925" y="5925" width="1151" height="151"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 8000,6000 L 7000,6000"/&gt;
    &lt;/g&gt;
   &lt;/g&gt;
  &lt;/g&gt;
 &lt;/svg&gt;</y:Resource>
       <y:Resource id="6" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="31.53mm" height="31.51mm" viewBox="4673 9425 3153 3151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+&lt;svg version="1.2" width="31.51mm" height="21.51mm" viewBox="5175 9925 3151 2151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+ &lt;defs class="EmbeddedBulletChars"&gt;
+  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
+  &lt;/g&gt;
+ &lt;/defs&gt;
+ &lt;g class="Page"&gt;
+  &lt;g class="com.sun.star.drawing.LineShape"&gt;
+   &lt;g id="id3"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6675" y="11425" width="151" height="651"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6750,12000 L 6750,11500"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
+   &lt;g id="id4"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="9925" width="3151" height="1651"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 8250,10001 C 8250,10264 8181,10522 8049,10750 7917,10978 7728,11167 7500,11299 7272,11431 7013,11500 6750,11500 6487,11500 6228,11431 6000,11299 5772,11167 5583,10978 5451,10750 5319,10522 5250,10264 5250,10001"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="7" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+
+&lt;svg
+   width="19.989998mm"
+   height="31.5mm"
+   viewBox="0 0 19.989998 31.5"
+   version="1.1"
+   id="svg2711"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"&gt;
+  &lt;sodipodi:namedview
+     id="namedview2713"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" /&gt;
+  &lt;defs
+     id="defs2708" /&gt;
+  &lt;g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.392716,-18.256523)"&gt;
+    &lt;g
+       id="g2854"
+       transform="matrix(-1,0,0,1,84.77543,0)"&gt;
+      &lt;path
+         fill="none"
+         d="m 52.382715,34.006522 h -5"
+         stroke-width="1.5"
+         stroke="#000000"
+         stroke-linejoin="round"
+         id="path633"
+         style="text-decoration:none;text-decoration-line:none" /&gt;
+      &lt;path
+         fill="none"
+         d="m 32.392715,19.006522 c 2.63,0 5.21,0.69 7.49,2.01 2.28,1.32 4.17,3.21 5.49,5.49 1.32,2.28 2.01,4.87 2.01,7.5 0,2.63 -0.69,5.22 -2.01,7.5 -1.32,2.28 -3.21,4.17 -5.49,5.49 -2.28,1.32 -4.86,2.01 -7.49,2.01"
+         stroke-width="1.5"
+         stroke="#000000"
+         stroke-linejoin="round"
+         id="path640"
+         style="text-decoration:none;text-decoration-line:none" /&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="8" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.2" width="31.51mm" height="21.51mm" viewBox="5175 9925 3151 2151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+ &lt;defs class="EmbeddedBulletChars"&gt;
+  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
+  &lt;/g&gt;
+ &lt;/defs&gt;
+ &lt;g class="Page"&gt;
+  &lt;g class="com.sun.star.drawing.LineShape"&gt;
+   &lt;g id="id3"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6675" y="9925" width="151" height="651"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6750,10000 L 6750,10500"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
+   &lt;g id="id4"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="10425" width="3151" height="1651"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5250,11999 C 5250,11736 5319,11478 5451,11250 5583,11022 5772,10833 6000,10701 6228,10569 6487,10500 6750,10500 7013,10500 7272,10569 7500,10701 7728,10833 7917,11022 8049,11250 8181,11478 8250,11736 8250,11999"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="9" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.2" width="21.51mm" height="31.51mm" viewBox="5675 9425 2151 3151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
  &lt;defs class="EmbeddedBulletChars"&gt;
   &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
    &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
@@ -570,127 +879,9 @@
     &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5751,9500 C 6014,9500 6272,9569 6500,9701 6728,9833 6917,10022 7049,10250 7181,10478 7250,10737 7250,11000 7250,11263 7181,11522 7049,11750 6917,11978 6728,12167 6500,12299 6272,12431 6014,12500 5751,12500"/&gt;
    &lt;/g&gt;
   &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
-   &lt;g id="id5"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4673" y="9925" width="2153" height="2152"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5749,12001 C 5574,12001 5401,11955 5249,11867 5097,11779 4971,11653 4883,11501 4795,11349 4749,11176 4749,11001 4749,10825 4795,10652 4883,10500 4971,10348 5097,10222 5249,10134 5401,10046 5574,10000 5749,10000 5925,10000 6098,10046 6250,10134 6402,10222 6528,10348 6616,10500 6704,10652 6750,10825 6750,11001 6750,11176 6704,11349 6616,11501 6528,11653 6402,11779 6250,11867 6098,11955 5925,12001 5750,12001 L 5749,12001 Z"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
  &lt;/g&gt;
 &lt;/svg&gt;</y:Resource>
-      <y:Resource id="7" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="31.51mm" height="31.52mm" viewBox="4675 9425 3151 3152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
- &lt;defs class="EmbeddedBulletChars"&gt;
-  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
-  &lt;/g&gt;
- &lt;/defs&gt;
- &lt;g class="Page"&gt;
-  &lt;g class="com.sun.star.drawing.LineShape"&gt;
-   &lt;g id="id3"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6175" y="9425" width="151" height="651"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6250,9500 L 6250,10000"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
-   &lt;g id="id4"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4675" y="9925" width="3151" height="1651"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 4750,11499 C 4750,11236 4819,10978 4951,10750 5083,10522 5272,10333 5500,10201 5728,10069 5987,10000 6250,10000 6513,10000 6772,10069 7000,10201 7228,10333 7417,10522 7549,10750 7681,10978 7750,11236 7750,11499"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
-   &lt;g id="id5"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="10425" width="2152" height="2152"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 7251,11501 C 7251,11676 7205,11849 7117,12001 7029,12153 6903,12279 6751,12367 6599,12455 6426,12501 6251,12501 6075,12501 5902,12455 5750,12367 5598,12279 5472,12153 5384,12001 5296,11849 5250,11676 5250,11501 5250,11325 5296,11152 5384,11000 5472,10848 5598,10722 5750,10634 5902,10546 6075,10500 6250,10500 6426,10500 6599,10546 6751,10634 6903,10722 7029,10848 7117,11000 7205,11152 7251,11325 7251,11500 L 7251,11501 Z"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
- &lt;/g&gt;
-&lt;/svg&gt;</y:Resource>
-      <y:Resource id="8" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="31.52mm" height="31.51mm" viewBox="4675 9425 3152 3151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
- &lt;defs class="EmbeddedBulletChars"&gt;
-  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
-  &lt;/g&gt;
- &lt;/defs&gt;
- &lt;g class="Page"&gt;
-  &lt;g class="com.sun.star.drawing.LineShape"&gt;
-   &lt;g id="id3"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4675" y="10925" width="651" height="151"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 4750,11000 L 5250,11000"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
-   &lt;g id="id4"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="9425" width="1651" height="3151"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6749,12500 C 6486,12500 6228,12431 6000,12299 5772,12167 5583,11978 5451,11750 5319,11522 5250,11263 5250,11000 5250,10737 5319,10478 5451,10250 5583,10022 5772,9833 6000,9701 6228,9569 6486,9500 6749,9500"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
-   &lt;g id="id5"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5675" y="9924" width="2152" height="2152"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6751,9999 C 6926,9999 7099,10045 7251,10133 7403,10221 7529,10347 7617,10499 7705,10651 7751,10824 7751,11000 7751,11175 7705,11348 7617,11500 7529,11652 7403,11778 7251,11866 7099,11954 6926,12000 6751,12000 6575,12000 6402,11954 6250,11866 6098,11778 5972,11652 5884,11500 5796,11348 5750,11175 5750,11000 5750,10824 5796,10651 5884,10499 5972,10347 6098,10221 6250,10133 6402,10045 6575,9999 6750,9999 L 6751,9999 Z"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
- &lt;/g&gt;
-&lt;/svg&gt;</y:Resource>
-      <y:Resource id="9" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+      <y:Resource id="10" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
 &lt;svg version="1.2" width="31.51mm" height="31.52mm" viewBox="4675 9424 3151 3152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
  &lt;defs class="EmbeddedBulletChars"&gt;
@@ -746,9 +937,121 @@
   &lt;/g&gt;
  &lt;/g&gt;
 &lt;/svg&gt;</y:Resource>
-      <y:Resource id="10" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+      <y:Resource id="11" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="21.51mm" height="31.51mm" viewBox="5675 9425 2151 3151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+&lt;svg version="1.2" width="31.52mm" height="31.51mm" viewBox="4675 9425 3152 3151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+ &lt;defs class="EmbeddedBulletChars"&gt;
+  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
+  &lt;/g&gt;
+ &lt;/defs&gt;
+ &lt;g class="Page"&gt;
+  &lt;g class="com.sun.star.drawing.LineShape"&gt;
+   &lt;g id="id3"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4675" y="10925" width="651" height="151"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 4750,11000 L 5250,11000"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
+   &lt;g id="id4"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="9425" width="1651" height="3151"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6749,12500 C 6486,12500 6228,12431 6000,12299 5772,12167 5583,11978 5451,11750 5319,11522 5250,11263 5250,11000 5250,10737 5319,10478 5451,10250 5583,10022 5772,9833 6000,9701 6228,9569 6486,9500 6749,9500"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
+   &lt;g id="id5"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5675" y="9924" width="2152" height="2152"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6751,9999 C 6926,9999 7099,10045 7251,10133 7403,10221 7529,10347 7617,10499 7705,10651 7751,10824 7751,11000 7751,11175 7705,11348 7617,11500 7529,11652 7403,11778 7251,11866 7099,11954 6926,12000 6751,12000 6575,12000 6402,11954 6250,11866 6098,11778 5972,11652 5884,11500 5796,11348 5750,11175 5750,11000 5750,10824 5796,10651 5884,10499 5972,10347 6098,10221 6250,10133 6402,10045 6575,9999 6750,9999 L 6751,9999 Z"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="12" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.2" width="31.51mm" height="31.52mm" viewBox="4675 9425 3151 3152" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
+ &lt;defs class="EmbeddedBulletChars"&gt;
+  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
+  &lt;/g&gt;
+  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
+   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
+  &lt;/g&gt;
+ &lt;/defs&gt;
+ &lt;g class="Page"&gt;
+  &lt;g class="com.sun.star.drawing.LineShape"&gt;
+   &lt;g id="id3"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6175" y="9425" width="151" height="651"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6250,9500 L 6250,10000"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
+   &lt;g id="id4"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4675" y="9925" width="3151" height="1651"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 4750,11499 C 4750,11236 4819,10978 4951,10750 5083,10522 5272,10333 5500,10201 5728,10069 5987,10000 6250,10000 6513,10000 6772,10069 7000,10201 7228,10333 7417,10522 7549,10750 7681,10978 7750,11236 7750,11499"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
+   &lt;g id="id5"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="10425" width="2152" height="2152"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 7251,11501 C 7251,11676 7205,11849 7117,12001 7029,12153 6903,12279 6751,12367 6599,12455 6426,12501 6251,12501 6075,12501 5902,12455 5750,12367 5598,12279 5472,12153 5384,12001 5296,11849 5250,11676 5250,11501 5250,11325 5296,11152 5384,11000 5472,10848 5598,10722 5750,10634 5902,10546 6075,10500 6250,10500 6426,10500 6599,10546 6751,10634 6903,10722 7029,10848 7117,11000 7205,11152 7251,11325 7251,11500 L 7251,11501 Z"/&gt;
+   &lt;/g&gt;
+  &lt;/g&gt;
+ &lt;/g&gt;
+&lt;/svg&gt;</y:Resource>
+      <y:Resource id="13" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
+&lt;svg version="1.2" width="31.53mm" height="31.51mm" viewBox="4673 9425 3153 3151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
  &lt;defs class="EmbeddedBulletChars"&gt;
   &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
    &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
@@ -794,104 +1097,10 @@
     &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5751,9500 C 6014,9500 6272,9569 6500,9701 6728,9833 6917,10022 7049,10250 7181,10478 7250,10737 7250,11000 7250,11263 7181,11522 7049,11750 6917,11978 6728,12167 6500,12299 6272,12431 6014,12500 5751,12500"/&gt;
    &lt;/g&gt;
   &lt;/g&gt;
- &lt;/g&gt;
-&lt;/svg&gt;</y:Resource>
-      <y:Resource id="11" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="31.51mm" height="21.51mm" viewBox="5175 9925 3151 2151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
- &lt;defs class="EmbeddedBulletChars"&gt;
-  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
-  &lt;/g&gt;
- &lt;/defs&gt;
- &lt;g class="Page"&gt;
-  &lt;g class="com.sun.star.drawing.LineShape"&gt;
-   &lt;g id="id3"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6675" y="9925" width="151" height="651"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6750,10000 L 6750,10500"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
-   &lt;g id="id4"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="10425" width="3151" height="1651"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5250,11999 C 5250,11736 5319,11478 5451,11250 5583,11022 5772,10833 6000,10701 6228,10569 6487,10500 6750,10500 7013,10500 7272,10569 7500,10701 7728,10833 7917,11022 8049,11250 8181,11478 8250,11736 8250,11999"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
- &lt;/g&gt;
-&lt;/svg&gt;</y:Resource>
-      <y:Resource id="12" xml:space="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;
-&lt;svg version="1.2" width="31.51mm" height="21.51mm" viewBox="5175 9925 3151 2151" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve"&gt;
- &lt;defs class="EmbeddedBulletChars"&gt;
-  &lt;g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/&gt;
-  &lt;/g&gt;
-  &lt;g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)"&gt;
-   &lt;path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/&gt;
-  &lt;/g&gt;
- &lt;/defs&gt;
- &lt;g class="Page"&gt;
-  &lt;g class="com.sun.star.drawing.LineShape"&gt;
-   &lt;g id="id3"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="6675" y="11425" width="151" height="651"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 6750,12000 L 6750,11500"/&gt;
-   &lt;/g&gt;
-  &lt;/g&gt;
-  &lt;g class="com.sun.star.drawing.EllipseShape"&gt;
-   &lt;g id="id4"&gt;
-    &lt;rect class="BoundingBox" stroke="none" fill="none" x="5175" y="9925" width="3151" height="1651"/&gt;
-    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 8250,10001 C 8250,10264 8181,10522 8049,10750 7917,10978 7728,11167 7500,11299 7272,11431 7013,11500 6750,11500 6487,11500 6228,11431 6000,11299 5772,11167 5583,10978 5451,10750 5319,10522 5250,10264 5250,10001"/&gt;
+  &lt;g class="com.sun.star.drawing.CustomShape"&gt;
+   &lt;g id="id5"&gt;
+    &lt;rect class="BoundingBox" stroke="none" fill="none" x="4673" y="9925" width="2153" height="2152"/&gt;
+    &lt;path fill="none" stroke="rgb(0,0,0)" stroke-width="150" stroke-linejoin="round" d="M 5749,12001 C 5574,12001 5401,11955 5249,11867 5097,11779 4971,11653 4883,11501 4795,11349 4749,11176 4749,11001 4749,10825 4795,10652 4883,10500 4971,10348 5097,10222 5249,10134 5401,10046 5574,10000 5749,10000 5925,10000 6098,10046 6250,10134 6402,10222 6528,10348 6616,10500 6704,10652 6750,10825 6750,11001 6750,11176 6704,11349 6616,11501 6528,11653 6402,11779 6250,11867 6098,11955 5925,12001 5750,12001 L 5749,12001 Z"/&gt;
    &lt;/g&gt;
   &lt;/g&gt;
  &lt;/g&gt;
