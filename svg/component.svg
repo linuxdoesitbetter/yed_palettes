@@ -2,11 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="9.5710373mm"
-   height="9.9411278mm"
-   viewBox="0 0 9.5710373 9.9411278"
+   width="4.7996888mm"
+   height="4.9936519mm"
+   viewBox="0 0 4.7996888 4.9936519"
    version="1.1"
    id="svg321"
+   sodipodi:docname="component.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,26 +29,27 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-43.726281,-46.236334)">
+     transform="translate(-46.069482,-48.455783)">
     <g
        id="g854"
-       transform="translate(-24.007052,9.053642)">
+       transform="matrix(0.49608436,0,0,0.49711631,12.49386,29.997539)"
+       style="stroke-width:0.604108;stroke-dasharray:none">
       <rect
-         style="fill:#fdfdfd;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#fdfdfd;fill-opacity:1;stroke:#000000;stroke-width:0.604108;stroke-dasharray:none;stroke-opacity:1"
          id="rect111"
          width="6.6449666"
          height="9.4411306"
          x="70.409401"
          y="37.43269" />
       <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.604108;stroke-dasharray:none;stroke-opacity:1"
          id="rect111-3"
          width="4.8604436"
          height="2.030586"
          x="68.017014"
          y="39.545868" />
       <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.604108;stroke-dasharray:none;stroke-opacity:1"
          id="rect111-3-6"
          width="4.8604436"
          height="2.030586"
