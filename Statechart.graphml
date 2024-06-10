@@ -69,13 +69,47 @@ exit / schlafen</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n3">
+    <node id="n3" yfiles.foldertype="group">
+      <data key="d3" xml:space="preserve"><![CDATA[e1899d41-edad-4a40-b8d7-6909d5d57307]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[Automat]]></data>
+      <data key="d5" xml:space="preserve"/>
+      <data key="d6" xml:space="preserve"><![CDATA[Automat]]></data>
+      <data key="d7">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="98.81280000000004" width="188.77120000000002" x="656.3136" y="30.0"/>
+              <y:Fill hasColor="false" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="2.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="188.77120000000002" x="0.0" y="0.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" bottomInset="0" fontFamily="Hack" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="16.296875" horizontalTextPosition="center" iconTextGap="4" leftInset="20" modelName="internal" modelPosition="tl" rightInset="0" textColor="#000000" topInset="0" verticalTextPosition="bottom" visible="true" width="121.14453125" x="4.0" xml:space="preserve" y="4.0">sm_Automat_/</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="71" bottomF="71.05098702481587" left="71" leftF="70.87430328369157" right="59" rightF="59.25913437500026" top="106" topF="106.09656337931142"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="708.8306225200007" y="1163.807272600001"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="61.09037780761719" x="-5.545188903808594" xml:space="preserve" y="0.0">Folder 1</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n3:"/>
+    </node>
+    <node id="n4">
       <data key="d3" xml:space="preserve"><![CDATA[793ca57f-f6ef-482c-811a-8a48c7c5fd81]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Entscheidung]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Entscheidung]]></data>
       <data key="d7">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="656.3136000000001" y="64.40640000000002"/>
+          <y:Geometry height="30.0" width="30.0" x="0.0" y="158.81280000000004"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0">
@@ -90,14 +124,14 @@ exit / schlafen</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n4">
+    <node id="n5">
       <data key="d3" xml:space="preserve"><![CDATA[51c692fe-e5ca-4535-b908-0793ce82d1a3]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Versteckte Dekomposition]]></data>
       <data key="d5" xml:space="preserve"/>
       <data key="d6" xml:space="preserve"><![CDATA[Versteckte Dekomposition]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="21.10978126525879" width="100.9893569946289" x="716.3136000000001" y="68.85150936737062"/>
+          <y:Geometry height="21.10978126525879" width="100.9893569946289" x="60.0" y="163.25790936737064"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="48.49467849731445" y="25.10978126525879"/>
@@ -108,25 +142,12 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n5">
-      <data key="d4"/>
-      <data key="d6"/>
-      <data key="d7">
-        <y:ShapeNode>
-          <y:Geometry height="20.0" width="20.0" x="0.0" y="162.81280000000004"/>
-          <y:Fill color="#C0C0C07F" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
-          <y:Shape type="ellipse"/>
-        </y:ShapeNode>
-      </data>
-    </node>
     <node id="n6">
       <data key="d4"/>
       <data key="d6"/>
       <data key="d7">
         <y:ShapeNode>
-          <y:Geometry height="20.0" width="20.0" x="100.0" y="162.81280000000004"/>
+          <y:Geometry height="20.0" width="20.0" x="190.9893569946289" y="163.81280000000004"/>
           <y:Fill color="#C0C0C07F" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
@@ -135,12 +156,25 @@ exit / schlafen</y:NodeLabel>
       </data>
     </node>
     <node id="n7">
+      <data key="d4"/>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="290.9893569946289" y="163.81280000000004"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
       <data key="d3" xml:space="preserve"><![CDATA[d66fc5a5-66f3-416d-9b89-98916c78494f]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Austrittspunkt]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Austrittspunkt]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="18.89714813232422" width="18.898265838623047" x="150.0" y="163.36422593383793"/>
+          <y:Geometry height="18.89714813232422" width="18.898265838623047" x="340.9893569946289" y="164.36422593383793"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="7.449132919311523" y="22.89714813232422"/>
@@ -151,13 +185,13 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n8">
+    <node id="n9">
       <data key="d3" xml:space="preserve"><![CDATA[3ab688e3-22b0-493c-9ff0-e8f821de607d]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Eintrittspunkt]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Eintrittspunkt]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="18.896038055419922" width="18.897544860839844" x="198.89826583862305" y="163.36478097229008"/>
+          <y:Geometry height="18.896038055419922" width="18.897544860839844" x="389.88762283325195" y="164.36478097229008"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="7.448772430419922" y="22.896038055419922"/>
@@ -168,13 +202,13 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n9">
+    <node id="n10">
       <data key="d3" xml:space="preserve"><![CDATA[8e365118-2b39-4ed3-ae6d-7a0e4b5d0c2a]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Ende]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Ende]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="18.898157119750977" width="18.897106170654297" x="247.7958106994629" y="163.36372144012455"/>
+          <y:Geometry height="18.898157119750977" width="18.897106170654297" x="438.7851676940918" y="164.36372144012455"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="7.448553085327148" y="22.898157119750977"/>
@@ -185,13 +219,13 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n10">
+    <node id="n11">
       <data key="d3" xml:space="preserve"><![CDATA[e173ab18-9440-4a23-a747-6c5406d0fb8d]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Start]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Start]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="18.89763832092285" width="18.897624969482422" x="296.6929168701172" y="163.3639808395386"/>
+          <y:Geometry height="18.89763832092285" width="18.897624969482422" x="487.6822738647461" y="164.3639808395386"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="7.448812484741211" y="22.89763832092285"/>
@@ -202,13 +236,13 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n11">
+    <node id="n12">
       <data key="d3" xml:space="preserve"><![CDATA[8498aa82-35b5-478b-814d-79c5daecb696]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Terminator]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Terminator]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="18.897666931152344" width="18.89713478088379" x="345.5905418395996" y="163.36396653442387"/>
+          <y:Geometry height="18.897666931152344" width="18.89713478088379" x="536.5798988342285" y="164.36396653442387"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="7.4485673904418945" y="22.897666931152344"/>
@@ -219,13 +253,13 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n12">
+    <node id="n13">
       <data key="d3" xml:space="preserve"><![CDATA[f72beb9a-82b8-4315-9d90-fd98eba14ad6]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Historie]]></data>
       <data key="d6" xml:space="preserve"><![CDATA[Historie]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="17.385812759399414" width="17.385828018188477" x="394.4876766204834" y="164.11989362030033"/>
+          <y:Geometry height="17.385812759399414" width="17.385828018188477" x="585.4770336151123" y="165.11989362030033"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="6.692914009094238" y="21.385812759399414"/>
@@ -236,14 +270,14 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n13">
+    <node id="n14">
       <data key="d3" xml:space="preserve"><![CDATA[1b24500d-b3eb-489f-8c7d-948e4b67254a]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Tiefe Historie]]></data>
       <data key="d5" xml:space="preserve"/>
       <data key="d6" xml:space="preserve"><![CDATA[Tiefe Historie]]></data>
       <data key="d7">
         <y:SVGNode>
-          <y:Geometry height="17.385828018188477" width="17.385826110839844" x="441.8735046386719" y="164.1198859909058"/>
+          <y:Geometry height="17.385828018188477" width="17.385826110839844" x="632.8628616333008" y="165.1198859909058"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="6.692913055419922" y="21.385828018188477"/>
@@ -254,31 +288,18 @@ exit / schlafen</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n14">
+    <node id="n15">
       <data key="d3" xml:space="preserve"><![CDATA[117922be-2492-49b5-adf4-0a1052d8f704]]></data>
       <data key="d4" xml:space="preserve"><![CDATA[Anmerkung]]></data>
       <data key="d5" xml:space="preserve"/>
       <data key="d6" xml:space="preserve"><![CDATA[Anmerkung]]></data>
       <data key="d7">
         <y:UMLNoteNode>
-          <y:Geometry height="28.0" width="100.0" x="489.2593307495117" y="158.81280000000004"/>
+          <y:Geometry height="28.0" width="100.0" x="680.2486877441406" y="159.81280000000004"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.480209350585938" x="34.25989532470703" xml:space="preserve" y="3.8279428482055664">Note<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:UMLNoteNode>
-      </data>
-    </node>
-    <node id="n15">
-      <data key="d4"/>
-      <data key="d6"/>
-      <data key="d7">
-        <y:ShapeNode>
-          <y:Geometry height="20.0" width="20.0" x="619.2593307495117" y="162.81280000000004"/>
-          <y:Fill color="#C0C0C07F" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
-          <y:Shape type="ellipse"/>
-        </y:ShapeNode>
       </data>
     </node>
     <node id="n16">
@@ -286,7 +307,7 @@ exit / schlafen</y:NodeLabel>
       <data key="d6"/>
       <data key="d7">
         <y:ShapeNode>
-          <y:Geometry height="20.0" width="20.0" x="719.2593307495117" y="162.81280000000004"/>
+          <y:Geometry height="20.0" width="20.0" x="0.0" y="218.81280000000004"/>
           <y:Fill color="#C0C0C07F" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
@@ -294,7 +315,20 @@ exit / schlafen</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <edge id="e0" source="n5" target="n6">
+    <node id="n17">
+      <data key="d4"/>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="20.0" width="20.0" x="100.0" y="218.81280000000004"/>
+          <y:Fill color="#C0C0C07F" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="8.0" y="8.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n6" target="n7">
       <data key="d9" xml:space="preserve"><![CDATA[3f9ecbe4-38a5-4264-b75a-9ee990f7672f]]></data>
       <data key="d10" xml:space="preserve"><![CDATA[Transition]]></data>
       <data key="d12" xml:space="preserve"><![CDATA[Transition]]></data>
@@ -303,12 +337,12 @@ exit / schlafen</y:NodeLabel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
-          <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Hack" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.94140625" x="-41.470703125" xml:space="preserve" y="-19.96875517578121">event [guard] / effect<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:EdgeLabel alignment="left" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Hack" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="six_pos" modelPosition="shead" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.94140625" x="-41.47069549560547" xml:space="preserve" y="-19.96875517578121">event [guard] / effect<y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e1" source="n15" target="n16">
+    <edge id="e1" source="n16" target="n17">
       <data key="d9" xml:space="preserve"><![CDATA[6ea62c3b-7399-4fba-a7e1-9a550f2e8921]]></data>
       <data key="d10" xml:space="preserve"><![CDATA[Zuordnung]]></data>
       <data key="d12" xml:space="preserve"><![CDATA[Zuordnung]]></data>
