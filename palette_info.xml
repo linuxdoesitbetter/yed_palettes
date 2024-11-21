@@ -16,4 +16,5 @@
   <palette.section palette.id="graphity.promotion" palette.visibility="true"/>
   <palette.section palette.id="Statechart" palette.visibility="true"/>
   <palette.section palette.id="Komponentendiagramm" palette.visibility="true"/>
+  <palette.section palette.id="Verteilungsdiagramm" palette.visibility="true"/>
 </palette.information>
